@@ -1,4 +1,3 @@
-
 "use client";
 import { useState } from "react";
 import { Navbar } from "flowbite-react";
@@ -50,7 +49,7 @@ export default function Header() {
           <FaMoon className="text-xl" />
         </Button>
         <Link to='/sign-in'>
-          <Button className="px-2 py-1 my-1 mx-1 bg-gradient-to-r from-violet-700 to-purple-300 rounded-lg text-white" >Sign In</Button>
+          <Button className="px-2 py-1 my-1 mx-1 bg-gradient-to-r from-violet-700 to-purple-300 rounded-lg text-white"  >Sign In</Button>
         </Link>
        
 
